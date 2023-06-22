@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    >
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="88.5dp"
+        android:layout_height="122dp"
+        android:src="@drawable/logo_resto"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Tempat Makan Paling Dekat"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+
+    <!-- Versi -->
+    <TextView
+        android:id="@+id/paragraf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="applikasi ini digunakan untuk mengetahui dimana posisi kita berada"
+        android:layout_below="@id/namaTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/paragraf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kegunaan utama aplikasi ini adalah untuk menampilkan tempat makan yang ada di sekitaran kita"
+        android:layout_below="@id/paragraf1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/paragraf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini menerapkan sersor yaitu sensor gps"
+        android:layout_below="@id/paragraf2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
+
+    <!-- Mochammad Rizqi Maulana 10122703 IF1-->
